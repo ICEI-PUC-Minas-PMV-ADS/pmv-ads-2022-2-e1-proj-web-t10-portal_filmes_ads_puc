@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# PORTAL DE FILMES
 
-`CURSO`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`PROJETO: DESENVOLVIMENTO DE APLICAÇÃO WEB FRONT-END`
 
-`SEMESTRE`
+`1º SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O objetivo geral deste trabalho é a criação de um portal de filmes que apresenta ferramentas de fácil uso e que permita o acesso a informações sem vieses.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Adonias De Almeida Sobrinho
+* Andréa Medeiros Aragão da Silveira
+* Douglas Garcia da Silveira
+* Marcelo Henrique Ferreira
+* Marcos henrique Aguiar França
+* Matheus Almeida da Roda
 
 ## Orientador
 
-* Nome completo do professor 1
+* Josemar Alves Caetano
 
 ## Instruções de utilização
 
