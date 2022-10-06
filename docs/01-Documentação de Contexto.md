@@ -1,6 +1,11 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O volume de informação gerada por ano no planeta é tão grande que alguns estudiosos relatam que o mundo(PENDENCIA REPETIÇÃO) a cada dia é engolido por milhares de dados, comparando-o com um oceano. (UOL, 2003)
+
+Com tantas informações disponíveis é importante que cada indivíduo saiba distinguir o que é importante, preciso, imparcial e assertivo. Com isso é possível direcionar seus esforços na aquisição de conhecimento através dessas informações. Além disso, observa-se o aumento de publicações sem evidências e com informações manipuladas (falsas).
+
+No setor de filmes não é diferente, a supervalorização da fofoca contribuiu para criação de falsas informações para atrair mais público, sem ter cuidado se prejudicará artistas, produtoras e clientes. Com isso, é essencial que existam canais de informação de filmes que publiquem um conteúdo variado e sem distorcer a verdade.
+
 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
