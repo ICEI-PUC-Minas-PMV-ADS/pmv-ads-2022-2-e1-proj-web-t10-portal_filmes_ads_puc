@@ -26,5 +26,5 @@ Com a utilização da internet é possível compartilhar com diversas pessoas os
 
 ## Público-Alvo
 
-Pessoas que gostam de estar atualizadas com as notícias dos filmes que estão em cartaz ou até mesmo já foram lançados. Outro público alvo são os entusiastas que possuem o hábito de buscar informações de seus filmes preferidos. Dessa forma, o público-alvo desta solução são homens e mulheres, em uma idade entre 20 e 45 anos
+Pessoas que gostam de estar atualizadas com as notícias dos filmes que estão em cartaz ou até mesmo já foram lançados. Outro público alvo são os entusiastas que possuem o hábito de buscar informações de seus filmes preferidos. Dessa forma, o público-alvo desta solução são homens e mulheres, em uma idade entre 20 e 45 anos.
 
