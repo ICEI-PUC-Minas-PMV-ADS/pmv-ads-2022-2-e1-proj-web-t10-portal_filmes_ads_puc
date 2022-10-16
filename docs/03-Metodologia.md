@@ -10,7 +10,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |Repositório de Codigo Fonte|GitHub|https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t10-portal_filmes_ads_puc|
 |Documentos do projeto|Google Drive|https://drive.google.com/drive/folders/1B0RlajZc1mgcePINeRV8zj4yo6uOyB31?usp=sharing|
 |Projeto de Interface e  Wireframes|MarvelApp|https://marvelapp.com/prototype/2gf88076|
-|Gerenciamento do Projeto|Trello|https://trello.com/invite/b/SMdxpaDR/09ceee9d0dbbed6805c002094fc5e768/portalfilmesadspuc|
+|Gerenciamento do Projeto|Trello|https://trello.com/w/espacodetrabalhodouser56347491|
 
 ## Gerenciamento do Projeto
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
@@ -38,3 +38,15 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos através da plataforma Trello é apresentado, no estado atual, na figura abaixo.
 
 <img src='img/board.png'>
+
+### Organização de Sprint
+
+Para melhor organização do projeto, foram definidas 5 sprints.
+
+|Descrição|Link| 
+|--|--|
+|Sprint 1|https://trello.com/b/SMdxpaDR/sprint-1|
+|Sprint 2|https://trello.com/b/A5cmo9cd/sprint-2|
+|Sprint 3|https://trello.com/b/L7wqBZcE/sprint-3|
+|Sprint 4|https://trello.com/b/vHqUdPiR/sprint-4
+|Sprint 5|https://trello.com/b/S5YQs36U/sprint-5|
