@@ -55,7 +55,7 @@ A tela de Filmes Favoritos apresenta a relação de filmes salvos pelo usuário.
 ![Favoritos](img/favoritos.jpg)
 
 # Tela - Dados sobre o Filme
-A tela de dados sobre o Filme apresenta, no Bloco de Conteúdo, uma filme específica com seu trailer. O Bloco de Barra Lateral apresenta os mesmos elementos da Home-Page. 
+A tela de dados sobre o Filme apresenta, no Bloco de Conteúdo, um filme específico com seu trailer. O bloco inferior apresenta uma barra de comentários que pode ser adiconado pelo usuário. O Bloco de Barra Lateral apresenta os mesmos elementos da Home-Page. 
 
 
 ![Dados filmes](img/dadosfilme.jpg)
