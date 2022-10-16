@@ -83,7 +83,7 @@ A conexão entre as tecnologias utilizadas é representada na Figura 14.
 
 Para realizar a hospedagem do site do projeto será utilizado a plataforma Heroku. A URL do site hospedado na ferramenta é:
 
-https://link_exemplo.herokuapp.com
+[link](https://portalfilmespuc.herokuapp.com/)
 
 Para realizar a implantação, correções e modificações do site no Heroku, é utilizado um repositório no Git e adicionado um "push event" no Heroku.
 Quando o projeto é submetido (push) via git aciona "push event" e realiza o lançamento do projeto versionado no repositório:
