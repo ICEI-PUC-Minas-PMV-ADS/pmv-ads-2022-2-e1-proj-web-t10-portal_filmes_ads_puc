@@ -33,9 +33,10 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 - `Done`: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
-O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos através da plataforma Trello é apresentado, no estado atual, na figura abaixo.
+O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos através da plataforma Trello é apresentado na Figura 01, no estado atual.
 
 <img src='img/board.png'>
+<center>Figura 01 - Quadro Kanban Trello</center>
 
 ### Organização das Sprints
 
