@@ -10,11 +10,9 @@ O objetivo geral deste trabalho é a criação de um portal de filmes que aprese
 
 ## Integrantes
 
-* Adonias De Almeida Sobrinho
 * Andréa Medeiros Aragão da Silveira
 * Douglas Garcia da Silveira
 * Marcelo Henrique Ferreira
-* Marcos henrique Aguiar França
 
 ## Orientador
 
