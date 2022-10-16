@@ -88,4 +88,4 @@ Para realizar a hospedagem do site do projeto será utilizado a plataforma Herok
 Para realizar a implantação, correções e modificações do site no Heroku, é utilizado um repositório no Git e adicionado um "push event" no Heroku.
 Quando o projeto é submetido (push) via git aciona "push event" e realiza o lançamento do projeto versionado no repositório:
 
-https://git.heroku.com/link_exemplo.git
+https://git.heroku.com/portalfilmespuc.git
