@@ -15,7 +15,6 @@ O objetivo geral deste trabalho é a criação de um portal de filmes que aprese
 * Douglas Garcia da Silveira
 * Marcelo Henrique Ferreira
 * Marcos henrique Aguiar França
-* Matheus Almeida da Roda
 
 ## Orientador
 
