@@ -5,23 +5,21 @@
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue. 
 
-|Ambiente|Plataforma|Link de Acesso|
-|-|-|-|
-|Repositório de Codigo Fonte|GitHub|https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t10-portal_filmes_ads_puc|
-|Documentos do projeto|Google Drive|https://drive.google.com/drive/folders/1B0RlajZc1mgcePINeRV8zj4yo6uOyB31?usp=sharing|
-|Projeto de Interface e  Wireframes|MarvelApp|https://marvelapp.com/prototype/2gf88076|
-|Gerenciamento do Projeto|Trello|https://trello.com/w/espacodetrabalhodouser56347491|
+|Ambiente|Plataforma/link|
+|-|-|
+|Repositório de Codigo Fonte|[GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t10-portal_filmes_ads_puc)|
+|Documentos do projeto|[Google Drive](https://drive.google.com/drive/folders/1B0RlajZc1mgcePINeRV8zj4yo6uOyB31?usp=sharing)|
+|Projeto de Interface e  Wireframes|[MarvelApp](https://marvelapp.com/prototype/2gf88076)|
+|Gerenciamento do Projeto|[Trello](https://trello.com/w/espacodetrabalhodouser56347491)|
 
 ## Gerenciamento do Projeto
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
 > **A equipe está organizada da seguinte maneira**:
 > - `Scrum Master`: Andréa Medeiros Aragão da Silveira
 > - `Product Owner`: Douglas Garcia da Silveira
-> - `Equipe de Desenvolvimento`:
->   - Adonias de Almeida Sobrinho
->   - Marcos Henrique Aguiar França
-> - `Equipe de Design`:
->   - Marcelo Henrique Ferreira
+> - `Desenvolvimento`: Marcelo Henrique Ferreira
+
+
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas:
 
@@ -39,14 +37,13 @@ O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos
 
 <img src='img/board.png'>
 
-### Organização de Sprint
+### Organização das Sprints
 
 Para melhor organização do projeto, foram definidas 5 sprints.
 
-|Descrição|Link| 
-|--|--|
-|Sprint 1|https://trello.com/b/SMdxpaDR/sprint-1|
-|Sprint 2|https://trello.com/b/A5cmo9cd/sprint-2|
-|Sprint 3|https://trello.com/b/L7wqBZcE/sprint-3|
-|Sprint 4|https://trello.com/b/vHqUdPiR/sprint-4
-|Sprint 5|https://trello.com/b/S5YQs36U/sprint-5|
+> **Links**:
+> - [Sprint 1](https://trello.com/b/SMdxpaDR/sprint-1)
+> - [Sprint 2](https://trello.com/b/A5cmo9cd/sprint-2)
+> - [Sprint 3](https://trello.com/b/L7wqBZcE/sprint-3)
+> - [Sprint 4](https://trello.com/b/vHqUdPiR/sprint-4)
+> - [Sprint 5](https://trello.com/b/S5YQs36U/sprint-5)
