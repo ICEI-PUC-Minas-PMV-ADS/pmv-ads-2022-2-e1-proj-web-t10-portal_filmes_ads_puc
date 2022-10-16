@@ -83,7 +83,7 @@ A conexão entre as tecnologias utilizadas é representada na Figura 14.
 
 ## Hospedagem
 
-Para realizar a hospedagem do site do projeto foi utilizado a plataforma Heroku. A URL do site hospedado na ferramenta é:
+Para realizar a hospedagem do site do projeto será utilizado a plataforma Heroku. A URL do site hospedado na ferramenta é:
 
 https://link_exemplo.herokuapp.com
 
