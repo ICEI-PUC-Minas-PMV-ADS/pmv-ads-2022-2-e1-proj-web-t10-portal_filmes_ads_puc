@@ -77,7 +77,7 @@ Para implementar essa solução serão utilizados as seguintes tecnologias:
 
 A conexão entre as tecnologias utilizadas é representada na Figura 14.
 
-![Diagrama das tecnologias](img/tecnologias.png)
+![Diagrama das tecnologias](img/tecnologias.jpg)
 <center>Figura 14 - Tecnologias</center>
 
 
