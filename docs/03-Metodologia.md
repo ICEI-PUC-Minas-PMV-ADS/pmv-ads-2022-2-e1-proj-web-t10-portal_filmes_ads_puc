@@ -39,6 +39,7 @@ O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos
 
 <img src='img/board.png'>
 <center>Figura 01 - Quadro Kanban Trello</center>
+
 ### Organização de Sprint
 
 Para melhor organização do projeto, foram definidas 5 sprints.
