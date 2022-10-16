@@ -1,6 +1,6 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="4-Projeto de Interface.md"> Projeto de Interface</a></span>
+<span style="color:red">Pré-requisitos: <a href="04-Projeto de Interface.md"> Projeto de Interface</a></span>
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação. 
 
@@ -16,19 +16,17 @@ Para visualizar o diagrama desenvolvido, acesse o ambiente [whimsical](https://w
 ![Diagrama de Componentes](img/componentes.png)
 <center>Figura 12 - Arquitetura da Solução</center>
 
-A solução implementada conta com os seguintes módulos:
-- **Navegador** - Interface básica do sistema  
+
+A solução implementada para o front-end da aplicação, conta com os seguintes módulos:
+- **Navegador** - Interface básica do sistema para acesso do usuário.
   - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
    - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
-     - **Canais** - seções de notícias apresentadas 
-     - **Comentários** - registro de opiniões dos usuários sobre as notícias
-     - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
- - **News API** - plataforma que permite o acesso às notícias exibidas no site.
+     - **Canais** - seções de filmes apresentadas 
+     - **Comentários** - registro de opiniões, interações dos usuários sobre as filmes.
+     - **Favoritos** - lista de filmes salvos para rápida visualização e compartilhamento, mostrado no perfil.
+ - **Movies API** - plataforma que permite o acesso as informações e trailers dos filmes exibidos no site.
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
-> **Links Úteis**:
->
-> - [Whimsical](https://whimsical.com/)
 
 Inclua um diagrama da solução e descreva os módulos e as tecnologias que fazem parte da solução. Discorra sobre o diagrama.
 
