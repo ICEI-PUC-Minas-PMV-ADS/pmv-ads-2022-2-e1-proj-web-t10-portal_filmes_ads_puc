@@ -1,8 +1,8 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
+<span style="color:red">Pré-requisitos: <a href="4-Projeto de Interface.md"> Projeto de Interface</a></span>
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação. 
 
 ## Diagrama de componentes
 
@@ -10,10 +10,11 @@ Diagrama que permite a modelagem física de um sistema, através da visão dos s
 
 Exemplo: 
 
-Os componentes que fazem parte da solução são apresentados na Figura XX.
+O diagrama apresentado abaixo (Figura 12) mostra os componentes que fazem parte da solução para o desenvolvimento do front-end da aplicação. 
+Para visualizar o diagrama desenvolvido, acesse o ambiente [whimsical](https://whimsical.com/K9fDy81GPwhYqHiLwGC6m7).
 
 ![Diagrama de Componentes](img/componentes.png)
-<center>Figura XX - Arquitetura da Solução</center>
+<center>Figura 12 - Arquitetura da Solução</center>
 
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
