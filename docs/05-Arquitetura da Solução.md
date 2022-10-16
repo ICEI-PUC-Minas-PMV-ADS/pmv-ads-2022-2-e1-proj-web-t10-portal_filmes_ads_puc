@@ -28,32 +28,30 @@ A solução implementada para o front-end da aplicação, conta com os seguintes
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
 ## Diagrama de solução
-Inclua um diagrama da solução e descreva os módulos e as tecnologias que fazem parte da solução. Discorra sobre o diagrama.
-Diagrama que permite analisar o fluxo de acesso ade um usuário e , através da visão dos seus componentes e relacionamentos entre os mesmos.
+
+Diagrama que permite analisar o fluxo de acesso de um usuário e, através da visão dos seus componentes e relacionamentos entre os mesmos.
 
 A imagem a seguir ilustra a o fluxo do usuário em nossa solução. Assim
-que o usuário entra na plataforma, ele é apresentado à tela inicial
-(Tela 1) onde ele é confrontado com as opões de editar seu perfil ou
-então visualizar sua galeria.
+que o usuário entra no site, ele é apresentado à tela inicial
+(Tela 1.0) onde ele é confrontado com as opões de pesquisar um título/categoria ou
+então visualizar os dados um filme em destaque.
 
-Caso ele opte por seguir pelo primeiro caminho (Editar Perfil), ele é
-redirecionado para a tela de edição de perfil (Tela 2), onde pode
-atualizar seus dados cadastrais. Nessa tela, o usuário também pode
-escolher para editar sua foto de perfil. Ao selecionar essa opção, ele é
-redirecionado para a Tela 3, onde ele a imagem expandida do perfil do
-usuário é mostrado. Ao selecionar a opção para atualizar a imagem, uma
-nova janela abre pedindo para o usuário fazer o upload da nova foto.
-Assim que o processo termina um pop-up exibe o status para o usuário
-(Tela 4) e o usuário é redirecionado para a Tela 2.
+Caso ele opte por seguir pelo primeiro caminho (pesquisar um título/categoria), ele é
+redirecionado para a tela de com os resultados da pesquisa (Tela 1.1), onde pode
+encontrar um filme pela busca e ir para a página de visualizar os dados de um filme (Tela 1.2). 
+Ao selecionar uma categoria na opção categorias, ele é redirecionado para a Tela 1.1.1, 
+onde e mostrado os resultados de filmes por categoria.
+Nessa tela, o usuário também pode escolher visualizar os favoritos. Ao selecionar essa opção, 
+ele é redirecionado para a Tela 1.2.1, onde é mostrado ao usuário todos os filmes marcados com
+o símbolo de coração (favoritos). 
 
-Caso o usuário opte seguir pelo segundo caminho (Visualizar Galeria) ele
-é redirecionado para a Tela 5 com todas as fotos que o usuário possui. O
-usuário pode clicar em um post qualquer para visualizar os detalhes do
-post (Tela 6). Nessa tela, ele pode então escolher editar o post, sendo
-redirecionado para a Tela 7. Ao editar as informações, o usuário pode
-escolher salvar ou deletar o post. Em ambos os casos o status é
-notificado para o usuário (Tela 8) e em seguida ele é redirecionado
-para a Tela 2.
+Caso o usuário opte seguir pelo segundo caminho (visualizar os dados um filme em destaque) ele
+é redirecionado para a Tela 1.2 com todas as informações sobre um determinado filme e seu trailer. O
+usuário pode escolher visualizar os favoritos. Ao selecionar essa opção, 
+ele é redirecionado para a Tela 1.2.1, onde é mostrado ao usuário todos os filmes marcados com
+o símbolo de coração (favoritos). 
+Nessa tela, o usuário também pode realizar uma pesquisa sendo redirecionado para a tela de com os
+resultados da pesquisa (Tela 1.1), visualizando uma lista de filmes com a palavra digitada.
 
 ![Fluxo do usuário](img/userflow.jpg)
 <center>Figura 13 - Fluxo do usuário</center>
