@@ -1,0 +1,163 @@
+/* Parte Superior */
+*{
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 200px;
+    float:left;
+}
+
+.menu-superior {
+    float:left;
+    display: block;
+}
+
+.menu-superior > ul {
+    list-style: none;
+    padding: 5px;
+}
+
+.pesquisa {
+    margin-left: 40px;
+    margin-top: 5px;
+    background-color:#E0EEEE;
+    border:solid 2px rgb(33, 163, 223);
+    border-radius:10px;
+    width:480px;
+    height:32px;
+}
+
+#txt-busca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:15px;
+    border:none;
+    height:32px;
+    width:400px;
+}
+
+#btn-busca {
+    border:none;
+    float:left;
+    height:28px;
+    border-radius:0 7px 7px 0;
+    width: 76px;
+    font-weight:bold;
+    background:rgb(9, 165, 238);
+}
+
+#btn-login {
+    border:none;
+    float:left;
+    height:32px;
+    border-radius: 7px;
+    width: 200px;
+    color: white;
+    font-weight:bold;
+    font-size: 20px;
+    background:rgb(9, 165, 238);
+}
+
+.exemplo > ul > li {
+    display: inline-block;
+    font-size: 10px;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body > header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1;
+    min-height: 30vh;
+}
+
+header {
+    place-self: center;
+    grid-area: header;
+    margin: 0; 
+}
+
+/* Formulário */
+
+main{
+    margin: 10px;
+}
+.opcao {
+    display: flex;
+    margin-top: 80px;
+}
+
+.opcao > ul > li {
+    display: inline-block;
+    padding: 15px;
+    margin-top: -50px;
+}
+
+.opcao > ul > li:hover {
+    background: rgb(33, 163, 223);
+    color: white;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width:40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+table {
+	margin: 20px 0 40px;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
+

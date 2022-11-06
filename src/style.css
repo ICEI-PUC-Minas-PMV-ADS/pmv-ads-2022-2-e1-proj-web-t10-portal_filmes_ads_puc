@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1;
+    min-height: 100vh;
+}
+
+header { 
+    place-self: center;
+    grid-area: header;
+    margin: 0; 
+}
+
+.carrossel { 
+    grid-area: hot;    
+    place-self: center;
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;   
+    height: 450px;
+    width: 900px; 
+}
+
+.container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+.hot {   
+    object-fit: cover;   
+    height: 450px;
+    max-height: 100%;
+    width: 900px;    
+}
+
+.box {
+    width: 200px; 
+    border-radius: 10px; 
+    border: 1px solid rgb(185, 183, 183);  
+}
+
+.content { grid-area: content; }
+aside { grid-area: right; }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header header header header"
+        "tarja tarja tarja tarja"
+        "hot hot hot hot"
+        "content content content right"
+        "footer footer footer footer";
+}
+
+footer {
+    grid-area: footer;
+    vertical-align: bottom;    
+    place-self: center;
+}
+
+.logo {
+    width: 200px;
+    float:left;
+}
+
+.menu-superior {
+    float:left;    
+    display: block;
+}
+
+.menu-superior > ul {
+    list-style: none;
+}
+
+.pesquisa {
+    margin-left: 40px;
+    margin-top: 5px;
+    background-color:#E0EEEE;
+    border:solid 2px rgb(33, 163, 223);
+    border-radius:10px;
+    width:480px;
+    height:32px;
+}
+
+#txt-busca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:15px;
+    border:none;
+    height:32px;
+    width:400px;
+}
+
+#btn-busca {
+    border:none;
+    float:left;
+    height:28px;
+    border-radius:0 7px 7px 0;
+    width: 76px;
+    font-weight:bold;
+    background:rgb(9, 165, 238);
+}
+
+#btn-login {
+    float: right;
+    border-radius: 7px;
+    width: 200px;
+    color: white;
+    font-weight:bold;
+    text-align: center;
+    background:rgb(9, 165, 238);
+    margin-left: 80px;
+}
+
+.exemplo > ul > li {
+    display: inline-block; 
+    font-size: 10px;     
+}
+
+.opcao {
+    display: flex;    
+    margin-top: 80px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.opcao > ul > li {
+    display: inline-block;    
+    color: rgb(243, 56, 56);  
+    padding: 8px 9px 3px;
+    font-size: 18px; 
+}
+
+.opcao > ul > li:hover {
+    background: rgb(237, 235, 235); 
+}
+
+.tarja {
+    
+    grid-area: tarja;
+}
+
+.tarja p {
+    margin-top: -17px;
+    margin-left: -8px;
+    margin-right: -8px;
+    height:30px; 
+    padding-top: 8px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background: rgb(243, 56, 56);
+    box-shadow:0px 0px 5px #000000 inset;
+}
+
+aside > .box-lateral {    
+    box-shadow:0px 0px 5px #0041f5 inset;
+    margin-top: 5px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+a > h2  {
+    padding: 5px;
+    margin: 0; 
+    color: #0041f5; 
+    color: white;
+    background: rgb(9, 165, 238);
+    box-shadow:0px 0px 5px #0041f5 inset;
+}
+
+.box-filme {
+    display: flex;
+    border: 1px solid rgb(228, 223, 223);
+    border-radius: 10px;
+    margin: 8px;
+}
+
+.box-filme p, .box-filme h2 {
+    margin-top: 2px;
+}
+
+.box-filme h2 {
+    margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+        gap: 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto 1fr auto;
+        grid-template-areas:
+            'header'
+            'tarja'
+            'hot'
+            'right'
+            'content'
+            'footer';
+    }
+    .info > p {
+        display: none;
+    } 
+}
+

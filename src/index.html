@@ -1,1 +1,117 @@
-portalfilmespuc
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Filmes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    
+    <meta name="copyright" content="@ Portal Filmes">
+    <meta name="Keywords" content="filmes, notícias, series, lançamentos, cinema">
+    <meta name="author" content="Andréa Silveira, Douglas Silveira, Marcelo Ferreira">
+</head>
+<body>
+    <div class="wrapper">
+        <header>            
+            <a href="index.html"><img src="./img/logo.jpg" class="logo"></a>
+            
+            <nav class="menu-superior">
+                <div class="pesquisa">                    
+                    <input type="text" id="txt-busca" placeholder="Pesquisar um filme, uma serie ou uma categoria...">
+                    <button id="btn-busca">Buscar</button>
+                </div>
+                <div class="exemplo">
+                    <ul>
+                        <li>Ex:</li>
+                        <li> vingadores,</li>
+                        <li> o estranho mundo de Jack,</li>
+                        <li> luta,</li>
+                        <li> house of the dragons ...</li>
+                    </ul> 
+                </div> 
+                <div class="opcao">
+                    <ul>
+                        <li><a href="/filmes/filmes.html">FILMES</a></li>
+                        <li><a href="/filmes/series.html">SÉRIES</a></li>
+                        <li><a href="noticias.html">NOTÍCIAS</a></li>
+                        <li><a href="sobreNos.html">SOBRE NÓS</a></li>
+                        <li><a href="Contato.html">CONTATO</a></li>
+                        <li id="btn-login"><a href="entrar.html">MINHA CONTA</a></li>
+                    </ul>
+                    
+                </div>               
+            </nav>                      
+        </header>
+        
+        <div class="tarja">
+            <p>Fique por dentro dos filmes e séries do momento, curta, compartilhe e adicione amigos a sua rede, acesse <a href="entrar.html" style="color: rgb(204, 204, 6)">sua conta</a> e movimente nossa comunidade...</p> 
+        </div>
+
+        <div class="carrossel">
+            <div class="container" id="img" class="hot">
+                <div class="info-hot">
+                    <a href="http://pucminas.br"><img src="./img/movie1.jpg" alt="" class="hot"></a>
+                    <p>asahijdhaijksdhaisdhaijsdhiuasdhiuwqdiqwudghiasgdjhkasgdjkahsdgjashgdjkahs</p>
+                </div>
+                <a href="http://pucminas.br"><img src="./img/movie2.jpg" alt="" class="hot"></a>
+                <a href="http://pucminas.br"><img src="./img/series1.jpg" alt="" class="hot"></a>
+                <a href="http://pucminas.br"><img src="./img/series2.jpg" alt="" class="hot"></a>
+            </div>
+        </div>
+
+        <aside>
+            <div class="box-lateral">
+                <a href="favoritos.html"><h2> &#x2661; FAVORITOS</h2></a> 
+                <div class="categorias"><a href="#"><h2> &#8801; CATEGORIAS</h2></a>
+                    <ul>
+                        <li>cat1</li>
+                        <li>cat2</li>
+                        <li>cat3</li>
+                        <li>cat4</li>
+                        <li>cat5</li>
+                    </ul>
+                </div>
+            </div>            
+        </aside>
+
+        <div class="content">
+            
+            <div class="box-filme">
+                <a href="/filmes/filme_HF_Vespa.html"><img src="./img/movie1.jpg" alt="" class="box"></a>
+                <div class="info">
+                    <h2>Homem-Formiga e a Vespa: Quantumania</h2>                
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quia pariatur doloremque rem non ullam laboriosam porro tenetur eos odio recusandae sint suscipit sed eveniet et maxime sit, repellat voluptatum neque assumenda nobis. Laudantium, sapiente voluptates ducimus assumenda impedit nobis. Praesentium ratione facilis eligendi accusantium!</p>
+                </div>
+            </div>
+            <div class="box-filme">
+                <a href="/filmes/filme_AguaMan2.html"><img src="./img/movie2.jpg" alt="" class="box"></a>
+                <div class="info">
+                    <h2>Aquaman 2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quia pariatur doloremque rem non ullam laboriosam porro tenetur eos odio recusandae sint suscipit sed eveniet et maxime sit, repellat voluptatum neque assumenda nobis. Laudantium, sapiente voluptates ducimus assumenda impedit nobis. Praesentium ratione facilis eligendi accusantium!</p>
+                </div>
+            </div>
+            <div class="box-filme">
+                <a href="/filmes/filme_HouseOfTheDragons.html"><img src="./img/series1.jpg" alt="" class="box"></a>
+                <div class="info">
+                    <h2>House of the Dragons</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quia pariatur doloremque rem non ullam laboriosam porro tenetur eos odio recusandae sint suscipit sed eveniet et maxime sit, repellat voluptatum neque assumenda nobis. Laudantium, sapiente voluptates ducimus assumenda impedit nobis. Praesentium ratione facilis eligendi accusantium!</p>
+                </div>
+            </div>
+            <div class="box-filme">
+                <a href="/filmes/filme_AneisDoPoder.html"><img src="./img/series2.jpg" alt="" class="box"></a>
+                <div class="info">
+                    <h2>Senhor dos Aneis: Aneis do poder</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quia pariatur doloremque rem non ullam laboriosam porro tenetur eos odio recusandae sint suscipit sed eveniet et maxime sit, repellat voluptatum neque assumenda nobis. Laudantium, sapiente voluptates ducimus assumenda impedit nobis. Praesentium ratione facilis eligendi accusantium!</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>@ copyright (2022) Portal de Filmes</p>
+        </footer>
+    </div>
+    
+</body>
+</html>
