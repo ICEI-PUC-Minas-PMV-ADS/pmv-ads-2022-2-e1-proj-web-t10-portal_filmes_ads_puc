@@ -76,10 +76,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RF_01 | O site deve apresentar na página inicial, as principais notícias | Alta |
 |RF_02| O site deve apresentar, para cada notícia, uma imagem correspondente ao assunto apresentado (thumbnail) | Média |
 |RF_03| O site deve permitir ao usuário visualizar o texto completo da notícia com todos os detalhes da publicação |Média|
-|RF_04| O site deve oferecer um menu adicional que permita ao usuário visualizar notícias de fontes distintas (sources). |Média|
-|RF_05| O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar um texto específico que será informado na caixa de pesquisa. |Alta|
-|RF_06| O site deve permitir visualizar as informações de contatos do mantenedor do site |Média|
-|RF_07| O site deve permitir o compartilhamento de notícias visualizadas em plataformas de redes sociais |Baixa|
+|RF_04| O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar um texto específico que será informado na caixa de pesquisa. |Alta|
+|RF_05| O site deve permitir entrar em contato com o mantenetor do site |Média|
 
 
 ### Requisitos não Funcionais
