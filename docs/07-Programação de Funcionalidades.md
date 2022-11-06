@@ -13,7 +13,7 @@ O site deve apresentar na página inicial as principais notícias.
 ![Home Page | Tela Padrão](img/homePadrao.png)
 
 ### Requisito atendido:
-> - RR_01
+> - RF_01
 
 ### Artefatos da funcionalidade
 > - index.html
@@ -489,7 +489,7 @@ O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usu�
 }
 ```
 ## Contato (RF_05)
-O site deve permitir entrar em contato com o mantenetor do site.
+O site deve permitir entrar em contato com o mantenedor do site.
 
 - Link contato na Home Page:
 ![Link contato na Home Page](img/contatoLink.png)
@@ -497,7 +497,7 @@ O site deve permitir entrar em contato com o mantenetor do site.
 ![Formulário de contato](img/contato.png)
 
 ### Requisito atendido:
-> - RR_05
+> - RF_05
 
 ### Artefatos da funcionalidade
 > - index.html
