@@ -1,0 +1,147 @@
+/* media queries */
+@media (max-width: 1200px) {
+    .menu-superior {
+        width: 70%;         
+    }
+    .search-input {
+        font-size: small;
+    }
+    
+}
+
+@media (max-width: 900px) {
+    .wrapper {
+        gap: 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            'header'
+            'tarja'
+            'hot'
+            'right'
+            'content'
+            'footer';
+    }
+
+    .menu-superior {
+        display: none;
+    }
+
+    .logo {
+        width: 20%;
+        float:left;
+    }
+
+    .hot, .carrossel { 
+        height: 300px;
+        width: 600px;  
+    }
+
+    .container {
+        max-height: 20%;
+    } 
+       
+    
+}
+
+
+@media (max-width: 600px) {
+    
+    *{
+        font-size: small;
+    }
+
+    body {
+        display: block;
+    }
+
+    .btn {
+        height: 30px;
+    }
+    
+    .tarja h3 {
+        display: inline-block;          
+        width: 100%;   
+        justify-content: center;         
+    }
+    
+    .tarja p {
+        display: none;
+    }
+
+    .prev, .next {
+        padding: 8px;
+        font-size: 9px;
+    }
+
+    .texthot {
+        font-size: 10px;
+        padding: 4px 6px;
+    }
+
+    .hot, .carrossel { 
+        height: 160px;
+        width: 320px;  
+        border-radius: 25px;
+    }
+
+    .box-filme {
+        align-items: center;
+        display: inline-block;
+        width: 45%;
+        border:none;
+
+    }
+    .box-filme h2, .box-filme p{
+        display: none;
+    }
+
+    .content h1 {
+        margin-top: 25px;
+        margin-right: 0;
+        color: white;
+        padding-top: 10px;
+        height: 30px;
+        text-align: center;
+        background-color: rgb(173, 9, 238);
+        border-radius: 10px;
+    }
+    
+    .categorias {
+        margin-top: -8px;
+    }
+
+    .btnmenu {
+        height: 35px;
+    }
+    
+
+}
+
+@media (max-width: 320px) {
+
+    *{
+        font-size: x-small;
+    }
+
+    .tarja h3 {
+        display: block; 
+        font-size: x-small;    
+    }
+
+    .prev, .next {
+        padding: 4px;
+        font-size: 5px;
+    }
+
+    .texthot {
+        font-size: 5px;
+        padding: 2px 3px;
+    }
+
+    .hot, .carrossel { 
+        height: 80px;
+        width: 160px;  
+        border-radius: 12px;
+    }    
+}

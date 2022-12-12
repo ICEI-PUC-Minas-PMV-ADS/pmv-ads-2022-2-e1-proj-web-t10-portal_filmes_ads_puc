@@ -1,18 +1,68 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>House Of The Dragons - PF</title>
-        <link rel="stylesheet" href="/CSS/filmes.css">
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Filmes</title>
+    <link rel="stylesheet" href="../css/series.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="../responsividade.css">
+    <script src="script.js" defer></script>
+    
+    <meta name="copyright" content="@ Portal Filmes">
+    <meta name="Keywords" content="filmes, LANÇAMENTOS, series, LANÇAMENTOS, cinema">
+    <meta name="author" content="Andréa Silveira, Douglas Silveira, Marcelo Ferreira,Marcos França">
+</head>
+<body>
+    <div class="wrapper container serie">
+        <header>            
+            <a href="../index.html"><img src="../img/logo.gif" class="logo"></a>
+            
+            <nav class="menu-superior">
+                <div class="pesquisa">
+                    <label for="search-input" class="search-icon"></label>
+                    <input type="text" class="search-input" id="search-input" placeholder="Pesquisar um filme, uma serie ou uma categoria..." required />
+                </div>
+                <div class="opcao">
+                    <ul>
+                        <li><a href="/filmes/filmes.html">FILMES</a></li>
+                        <li><a href="/filmes/series.html">SÉRIES</a></li>
+                        <li><a href="../lancamentos.html">LANÇAMENTOS</a></li>
+                        <li><a href="../sobreNos.html">SOBRE NÓS</a></li>
+                        <li><a href="../contact.html">CONTATO</a></li>
+                        <li id="btn-login"><a href="../login.html">MINHA CONTA</a></li>
+                    </ul>
+                    
+                </div>               
+            </nav>                      
+        </header> 
         
-        <meta name="copyright" content="@ Portal Filmes">
-        <meta name="Keywords" content="filmes, notícias, series, lançamentos, cinema">
-        <meta name="author" content="Andréa Silveira, Douglas Silveira, Marcelo Ferreira">
-    </head>
-    <body>
-        <h1>House Of The Dragons</h1>
-        <p>Conteúdo será exibido nessa página</p>
-    </body>
-</html>
+        <div class="tarja">
+            <h3>Portal de Filmes, acesse <a href="entrar.html" style="color: rgb(7, 250, 250)">sua conta</a> e movimente nossa comunidade...</h3>
+            <p>Fique por dentro dos filmes e séries do momento, curta, compartilhe e adicione amigos a sua rede, acesse <a href="entrar.html" style="color: rgb(7, 250, 250)">sua conta</a> e movimente nossa comunidade...</p> 
+        </div>
+        <div class="content">  
+            <h1 class="text-white">House of the dragons</h1>
+            <div class="text-white">
+                 <div class="img-filme">
+                    <img src="../img/series1.jpg" alt=""> 
+                 </div> 
+                <div class="info">
+                    <div class="info-title">
+                        <h2>Resumo:</h2>                
+                        <div class="info-icons">
+                            <img src="../img/share.png" alt="">
+                            <img src="../img/coração.png" alt="">
+                        </div>
+                    </div>
+                    <p>Baseada no livro Fogo & Sangue de George R. R. Martin, A Casa do Dragão é um spin-off de Game of Thrones que narra a história de conquista de terras em Westeros, mais conhecida como a Dança dos Dragões. Situada mais de 200 anos antes dos eventos da série original, acompanhamos a guerra civil que acontece enquanto os meio-irmãos Aegon II (Tom Glynn-Carney) e Rhaenyra (Emma D'Arcy) almejam o trono após a morte do pai Viserys I (Paddy Considine). Rhaenyra é a filha mais velha, contudo, Aegon é o filho homem de um segundo casamento, o que acaba gerando uma crescente tensão entre dois clãs Targaryen sobre quem tem o verdadeiro direito ao trono. Como descrito em Game of Thrones, no tempo em que a família Targaryen dominava os 7 reinos, a casa era conhecida por seus imponentes dragões, que assim como a família, acabaram praticamente extintos após o conflito interno.</p>
+
+                    <p>Diversas mortes acontecerão na Dança, mas talvez a mais chocante de todas seja a de Rhaenyra, que se sentará no Trono de Ferro por um curto período. Uma das personagens mais queridas até aqui, a princesa conseguirá ocupar Porto Real, contudo, o povo se voltará contra ela. Então, a rainha fugirá para Pedra do Dragão, sem saber que seu irmão Aegon estava lá o tempo todo escondido e se recuperando de seus ferimentos sofridos na guerra.</p>            
+                    <div class="comment">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Escreva seu comentario"></textarea>
+                        <button>Enviar Comentário</button>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </html>

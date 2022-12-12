@@ -1,0 +1,14 @@
+.wrapper.sobrenos  {
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.wrapper.sobrenos .content h1 {
+ text-align: center;
+}
+.wrapper.sobrenos .content p {
+  margin:3rem;
+}

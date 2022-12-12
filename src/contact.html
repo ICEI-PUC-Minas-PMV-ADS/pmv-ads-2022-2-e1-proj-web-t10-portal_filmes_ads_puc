@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+		<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contato - PF</title>
+		
+        <link rel="stylesheet" href="../CSS/contato.css">
+		<link rel="stylesheet" href="../style.css">
+		<link rel="stylesheet" href="../responsividade.css">
+
+        <meta name="copyright" content="@ Portal Filmes">
+        <meta name="Keywords" content="filmes, LANÇAMENTOS, series, LANÇAMENTOS, cinema">
+        <meta name="author" content="Andréa Silveira, Douglas Silveira, Marcelo Ferreira">
+	</head>
+    <body>
+		<div class="wrapper container serie">
+			<header>            
+				<a href="../index.html"><img src="../img/logo.gif" class="logo"></a>
+				
+				<nav class="menu-superior">
+					<div class="pesquisa">
+						<label for="search-input" class="search-icon"></label>
+						<input type="text" class="search-input" id="search-input" placeholder="Pesquisar um filme, uma serie ou uma categoria..." required />
+					</div>
+					<div class="opcao">
+							<ul>
+								<li><a href="/filmes/filmes.html">FILMES</a></li>
+								<li><a href="/filmes/series.html">SÉRIES</a></li>
+								<li><a href="../lancamentos.html">LANÇAMENTOS</a></li>
+								<li><a href="../sobreNos.html">SOBRE NÓS</a></li>
+								<li><a href="../contact.html">CONTATO</a></li>
+								<li id="btn-login"><a href="../login.html">MINHA CONTA</a></li>
+							</ul>
+					</div>               
+				</nav>                      
+			</header> 
+			
+			<div class="tarja">
+           		<h3>Portal de Filmes, acesse <a href="entrar.html" style="color: rgb(7, 250, 250)">sua conta</a> e movimente nossa comunidade...</h3>
+            	<p>Fique por dentro dos filmes e séries do momento, curta, compartilhe e adicione amigos a sua rede, acesse <a href="entrar.html" style="color: rgb(7, 250, 250)">sua conta</a> e movimente nossa comunidade...</p> 
+        	</div>
+		
+
+			<main class="main contact">
+				<form>
+					<label for="nomesobrenome">Nome e sobrenome</label>
+					<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+					<label for="email">Email</label>
+					<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+					<label for="telefone">Telefone</label>
+					<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+					<label for="mensagem">Mensagem</label>
+					<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+					<fieldset>
+						<legend>Como prefere o nosso contato?</legend>
+						<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+						
+						<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+						
+						<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+					</fieldset>
+
+					<fieldset>
+						<legend>Qual horário prefere ser atendido?</legend>
+						<select>
+							<option>Manhã</option>
+							<option>Tarde</option>
+							<option>Noite</option>
+						</select>
+					</fieldset>
+
+					<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+					<input type="submit" value="Enviar formulário" class="enviar">
+				</form>
+
+				<table>
+					<tr>
+						<td>Dia</td>
+						<td>Horário</td>
+					</tr>
+					<tr>
+						<td>Segunda</td>
+						<td>8h ~ 20h</td>
+					</tr>
+					<tr>
+						<td>Quarta</td>
+						<td>8h ~ 20h</td>
+					</tr>
+					<tr>
+						<td>Sexta</td>
+						<td>8h ~ 20h</td>
+					</tr>
+				</table>
+        	</main>
+			<footer>
+				<p>@ copyright (2022) Portal de Filmes</p>
+			</footer>
+		</div>
+    </body>
+</html>

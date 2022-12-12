@@ -1,18 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>O Homem Formiga e Besta - PF</title>
-        <link rel="stylesheet" href="/CSS/filmes.css">
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Filmes</title>
+    <link rel="stylesheet" href="../css/series.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="../responsividade.css">
+    <script src="script.js" defer></script>
+    
+    <meta name="copyright" content="@ Portal Filmes">
+    <meta name="Keywords" content="filmes, LANÇAMENTOS, series, LANÇAMENTOS, cinema">
+    <meta name="author" content="Andréa Silveira, Douglas Silveira, Marcelo Ferreira,Marcos França">
+</head>
+<body>
+    <div class="wrapper container serie">
+        <header>            
+            <a href="../index.html"><img src="../img/logo.gif" class="logo"></a>
+            
+            <nav class="menu-superior">
+                <div class="pesquisa">
+                    <label for="search-input" class="search-icon"></label>
+                    <input type="text" class="search-input" id="search-input" placeholder="Pesquisar um filme, uma serie ou uma categoria..." required />
+                </div>
+                <div class="opcao">
+                    <ul>
+                        <li><a href="/filmes/filmes.html">FILMES</a></li>
+                        <li><a href="/filmes/series.html">SÉRIES</a></li>
+                        <li><a href="../lancamentos.html">LANÇAMENTOS</a></li>
+                        <li><a href="../sobreNos.html">SOBRE NÓS</a></li>
+                        <li><a href="../contact.html">CONTATO</a></li>
+                        <li id="btn-login"><a href="../login.html">MINHA CONTA</a></li>
+                    </ul>
+                    
+                </div>               
+            </nav>                      
+        </header> 
         
-        <meta name="copyright" content="@ Portal Filmes">
-        <meta name="Keywords" content="filmes, notícias, series, lançamentos, cinema">
-        <meta name="author" content="Andréa Silveira, Douglas Silveira, Marcelo Ferreira">
-    </head>
-    <body>
-        <h1>O Homem Formiga e Besta</h1>
-        <p>Conteúdo será exibido nessa página</p>
-    </body>
-</html>
+        <div class="tarja">
+            <h3>Portal de Filmes, acesse <a href="entrar.html" style="color: rgb(7, 250, 250)">sua conta</a> e movimente nossa comunidade...</h3>
+            <p>Fique por dentro dos filmes e séries do momento, curta, compartilhe e adicione amigos a sua rede, acesse <a href="entrar.html" style="color: rgb(7, 250, 250)">sua conta</a> e movimente nossa comunidade...</p> 
+        </div>
+        <div class="content">  
+            <h1 class="text-white">Homem Formiga</h1>
+            <div class="text-white">
+                 <div class="img-filme">
+                    <img src="../img/movie1.jpg" alt=""> 
+                 </div> 
+                <div class="info">
+                    <div class="info-title">
+                        <h2>Resumo:</h2>                
+                        <div class="info-icons">
+                            <img src="../img/share.png" alt="">
+                            <img src="../img/coração.png" alt="">
+                        </div>
+                    </div>
+                    <p>Após ter ajudado o Capitão América na batalha contra o Homem de Ferro na Alemanha, Scott Lang (Paul Rudd) é condenado a dois anos de prisão domiciliar, por ter quebrado o Tratado de Sokovia. Diante desta situação, ele foi obrigado a se aposentar temporariamente do posto de super-herói. Restando apenas três dias para o término deste prazo, ele tem um estranho sonho com Janet Van Dyne (Michelle Pfeiffer), que desapareceu 30 anos atrás ao entrar no mundo quântico em um ato de heroísmo. Ao procurar o dr. Hank Pym (Michael Douglas) e sua filha Hope (Evangeline Lilly) em busca de explicações, Scott é rapidamente cooptado pela dupla para que possa ajudá-los em sua nova missão: construir um túnel quântico, com o objetivo de resgatar Janet de seu limbo</p>
+
+                    <p>Com uma década de filmes lançados, a Marvel já deixou bem clara a proposta de trazer características peculiares a cada uma das aventuras estreladas por seus super-heróis, de forma a individualizá-los dentro de um contexto maior. Dentro desta linha, cabe ao Homem-Formiga a conjunção entre temas familiares e um humor um tanto quanto infantil, pelas várias possibilidades envolvendo o tamanho dos objetos e das próprias pessoas. Homem-Formiga e a Vespa segue esta prerrogativa desde a primeira fala, quando ressalta o elo materno entre as duas Vespas, sem deixar de lado a já estabelecida conexão entre Scott Lang e sua filhota e ainda apresentando um terceiro laço, adotivo. Só que, agora, o foco está todo para aquele que promete ser um elemento chave para o futuro do Universo Cinematográfico Marvel: o reino quântico.</p>
+                        
+                       <p>Antes de tudo, é bom ressaltar que há bem pouco de Vingadores: Guerra Infinita nesta nova aventura - o elo aqui é bem mais intenso com Capitão América: Guerra Civil. Condenado por ter quebrado o Tratado de Sokovia na emblemática batalha do aeroporto, Scott Lang está em prisão domiciliar por dois anos, com mais três de condicional. Desta forma, teve que dar um tempo na vida de super-herói até que, restando apenas três dias para que possa sair de casa, tem um estranho sonho com Janet Van Dyne (Michelle Pfeiffer), a Vespa original, que se perdeu no mundo quântico há 30 anos. Basta uma ligação e voilá, o trio formado por Lang, Hope (Evangeline Lilly) e o dr. Hank Pym (Michael Douglas) está mais uma vez reunido.</p>
+                    <div class="comment">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Escreva seu comentario"></textarea>
+                        <button>Enviar Comentário</button>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </html>

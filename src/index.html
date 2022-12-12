@@ -1,109 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal de Filmes</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../responsividade.css">
     <script src="script.js" defer></script>
     
     <meta name="copyright" content="@ Portal Filmes">
-    <meta name="Keywords" content="filmes, notícias, series, lançamentos, cinema">
-    <meta name="author" content="Andréa Silveira, Douglas Silveira, Marcelo Ferreira">
+    <meta name="Keywords" content="filmes, LANÇAMENTOS, series, LANÇAMENTOS, cinema">
+    <meta name="author" content="Andréa Silveira, Douglas Silveira, Marcelo Ferreira, Marcos França">
 </head>
 <body>
-    <div class="wrapper">
-        <header>            
-            <a href="index.html"><img src="./img/logo.jpg" class="logo"></a>
+    <div class="wrapper container">
+     <header>            
+            <a href="index.html"><img src="./img/logo.gif" class="logo"></a>
             
             <nav class="menu-superior">
-                <div class="pesquisa">                    
-                    <input type="text" id="txt-busca" placeholder="Pesquisar um filme, uma serie ou uma categoria...">
-                    <button id="btn-busca">Buscar</button>
+                <div class="pesquisa">
+                    <label for="search-input" class="search-icon"></label>
+                    <input type="text" class="search-input" id="search-input" placeholder="Pesquisar um filme, uma serie ou uma categoria..." required />
                 </div>
-                <div class="exemplo">
-                    <ul>
-                        <li>Ex:</li>
-                        <li> vingadores,</li>
-                        <li> o estranho mundo de Jack,</li>
-                        <li> luta,</li>
-                        <li> house of the dragons ...</li>
-                    </ul> 
-                </div> 
                 <div class="opcao">
                     <ul>
                         <li><a href="/filmes/filmes.html">FILMES</a></li>
                         <li><a href="/filmes/series.html">SÉRIES</a></li>
-                        <li><a href="noticias.html">NOTÍCIAS</a></li>
+                        <li><a href="lancamentos.html">LANÇAMENTOS</a></li>
                         <li><a href="sobreNos.html">SOBRE NÓS</a></li>
-                        <li><a href="Contato.html">CONTATO</a></li>
-                        <li id="btn-login"><a href="entrar.html">MINHA CONTA</a></li>
+                        <li><a href="contact.html">CONTATO</a></li>
+                        <li id="btn-login"><a href="login.html">MINHA CONTA</a></li>
                     </ul>
                     
                 </div>               
-            </nav>                      
-        </header>
+            </nav> 
+                               
+        </header> 
         
         <div class="tarja">
-            <p>Fique por dentro dos filmes e séries do momento, curta, compartilhe e adicione amigos a sua rede, acesse <a href="entrar.html" style="color: rgb(204, 204, 6)">sua conta</a> e movimente nossa comunidade...</p> 
+            <h3>Portal de Filmes, acesse <a href="entrar.html" style="color: rgb(7, 250, 250)">sua conta</a> e movimente nossa comunidade...</h3>
+            <p>Fique por dentro dos filmes e séries do momento, curta, compartilhe e adicione amigos a sua rede, acesse <a href="entrar.html" style="color: rgb(7, 250, 250)">sua conta</a> e movimente nossa comunidade...</p> 
         </div>
 
         <div class="carrossel">
-            <div class="container" id="img" class="hot">
-                <div class="info-hot">
-                    <a href="http://pucminas.br"><img src="./img/movie1.jpg" alt="" class="hot"></a>
-                    <p>asahijdhaijksdhaisdhaijsdhiuasdhiuwqdiqwudghiasgdjhkasgdjkahsdgjashgdjkahs</p>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="/img/movie1.jpg" class="hot">
+                    <div class="texthot"><h2>Homem-Formiga e a Vespa: Quantumania</h2>  </div>
                 </div>
-                <a href="http://pucminas.br"><img src="./img/movie2.jpg" alt="" class="hot"></a>
-                <a href="http://pucminas.br"><img src="./img/series1.jpg" alt="" class="hot"></a>
-                <a href="http://pucminas.br"><img src="./img/series2.jpg" alt="" class="hot"></a>
+            
+                <div class="mySlides fade">
+                    <img src="/img/movie2.jpg" class="hot">
+                    <div class="texthot"><h2>Aquaman 2</h2></div>
+                </div>
+            
+                <div class="mySlides fade">
+                    <img src="/img/series1.jpg" class="hot">
+                    <div class="texthot"><h2>House of the Dragons</h2></div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="/img/series2.jpg" class="hot">
+                    <div class="texthot"><h2>Senhor dos Aneis: Aneis do poder</h2></div>
+                </div>
+            
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
             </div>
         </div>
 
-        <aside>
-            <div class="box-lateral">
-                <a href="favoritos.html"><h2> &#x2661; FAVORITOS</h2></a> 
-                <div class="categorias"><a href="#"><h2> &#8801; CATEGORIAS</h2></a>
-                    <ul>
-                        <li>cat1</li>
-                        <li>cat2</li>
-                        <li>cat3</li>
-                        <li>cat4</li>
-                        <li>cat5</li>
-                    </ul>
+        <aside>          
+            <a href="./favoritos.html"><h2 class="btnmenu"> &#x2661; FAVORITOS</h2></a>               
+            <div class="box-lateral">                               
+                <h2 class="btn btnmenu"> &#8801; CATEGORIAS</h2>   
+                <div class="categorias">
+                    <a href="../filmes/desenho.html">Desenho</a>
+                    <a href="../filmes/acao.html">Ação</a>
+                    <a href="../filmes/herois.html">Herois</a>
+                    <a href="../filmes/ficcaocientifica.html">Ficção Cientifica</a>                 
                 </div>
-            </div>            
+            </div>           
         </aside>
 
-        <div class="content">
-            
+        <div class="content">  
+            <h1>Filmes e séries em destaque</h1>
             <div class="box-filme">
-                <a href="/filmes/filme_HF_Vespa.html"><img src="./img/movie1.jpg" alt="" class="box"></a>
+                <a href="/filmes/filme_HF_Vespa.html"><img src="./img/movie1.jpg" alt="" class="box">
                 <div class="info">
                     <h2>Homem-Formiga e a Vespa: Quantumania</h2>                
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quia pariatur doloremque rem non ullam laboriosam porro tenetur eos odio recusandae sint suscipit sed eveniet et maxime sit, repellat voluptatum neque assumenda nobis. Laudantium, sapiente voluptates ducimus assumenda impedit nobis. Praesentium ratione facilis eligendi accusantium!</p>
+                    <p>Scott Lang é um vigarista especializado em invadir locais e roubar objetos, e agora precisa assumir seu lado heróico e ajudar o bioquímico Hank Pym a proteger os segredos por trás do espetacular traje do Homem-Formiga. O Dr. Pym, que já foi membro da equipe...</p></a>
                 </div>
-            </div>
-            <div class="box-filme">
-                <a href="/filmes/filme_AguaMan2.html"><img src="./img/movie2.jpg" alt="" class="box"></a>
+            </div>            
+            <div class="box-filme">                
+                <a href="/filmes/filme_AguaMan2.html"><img src="./img/movie2.jpg" alt="" class="box">
                 <div class="info">
                     <h2>Aquaman 2</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quia pariatur doloremque rem non ullam laboriosam porro tenetur eos odio recusandae sint suscipit sed eveniet et maxime sit, repellat voluptatum neque assumenda nobis. Laudantium, sapiente voluptates ducimus assumenda impedit nobis. Praesentium ratione facilis eligendi accusantium!</p>
+                    <p>A cidade de Atlantis, que já foi lar de uma das mais avançadas civilizações do mundo, agora é um reino submerso dominado pelo ganancioso Rei Orm. Com um vasto exército a seu dispor, Orm planeja conquistar tanto os demais reinos do oceano, quanto o mundo da superfície. Em seu caminho está Aquaman, meio-humano e meio-atlante, e verdadeiro herdeiro do trono...</p></a>
                 </div>
             </div>
             <div class="box-filme">
-                <a href="/filmes/filme_HouseOfTheDragons.html"><img src="./img/series1.jpg" alt="" class="box"></a>
+                <a href="/filmes/filme_HouseOfTheDragons.html"><img src="./img/series1.jpg" alt="" class="box">
                 <div class="info">
                     <h2>House of the Dragons</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quia pariatur doloremque rem non ullam laboriosam porro tenetur eos odio recusandae sint suscipit sed eveniet et maxime sit, repellat voluptatum neque assumenda nobis. Laudantium, sapiente voluptates ducimus assumenda impedit nobis. Praesentium ratione facilis eligendi accusantium!</p>
+                    <p>“House of the Dragon” está se encaminhando para os episódios finais da primeira temporada, e ainda existe muita coisa para acontecer. Mas, como a série se baseia em um livro, escrito por George R.R. Martin, já é possível ter uma noção de como tudo terminará, e o final promete ser tão chocante quanto o...</p></a>
                 </div>
             </div>
             <div class="box-filme">
-                <a href="/filmes/filme_AneisDoPoder.html"><img src="./img/series2.jpg" alt="" class="box"></a>
+                <a href="/filmes/filme_AneisDoPoder.html"><img src="./img/series2.jpg" alt="" class="box">
                 <div class="info">
                     <h2>Senhor dos Aneis: Aneis do poder</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quia pariatur doloremque rem non ullam laboriosam porro tenetur eos odio recusandae sint suscipit sed eveniet et maxime sit, repellat voluptatum neque assumenda nobis. Laudantium, sapiente voluptates ducimus assumenda impedit nobis. Praesentium ratione facilis eligendi accusantium!</p>
+                    <p>Tendo início em uma época de relativa paz, a série acompanha um grupo de personagens que enfrentam o ressurgimento do mal na Terra-média. Das profundezas escuras das Montanhas de Névoa, das majestosas florestas de Lindon, do belíssimo reino da ilha de Númenor, até os confins do mapa...</p></a>
+                </div>
+            </div>
+            <div class="box-filme">
+                <a href="/filmes/s-peaky blinders.html"><img src="./img/Peaky Blinders.jpg" alt="" class="box">
+                <div class="info">
+                    <h2>Peaky Blinders</h2>
+                    <p>Tendo início em uma época de relativa paz, a série acompanha um grupo de personagens que enfrentam o ressurgimento do mal na Terra-média. Das profundezas escuras das Montanhas de Névoa, das majestosas florestas de Lindon, do belíssimo reino da ilha de Númenor, até os confins do mapa...</p></a>
+                </div>
+            </div>
+            <div class="box-filme">
+                <a href="/filmes/s-rickandmorty.html"><img src="./img/rick and morty.png" alt="" class="box">
+                <div class="info">
+                    <h2>Rick and Morty</h2>
+                    <p>Tendo início em uma época de relativa paz, a série acompanha um grupo de personagens que enfrentam o ressurgimento do mal na Terra-média. Das profundezas escuras das Montanhas de Névoa, das majestosas florestas de Lindon, do belíssimo reino da ilha de Númenor, até os confins do mapa...</p></a>
                 </div>
             </div>
         </div>
